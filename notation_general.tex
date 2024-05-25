@@ -1,0 +1,62 @@
+\begin{table}[h]
+    \begin{tabularx}{\textwidth}{
+        >{\RaggedRight}m{3.5cm}
+        >{\RaggedRight}m{3.5cm}
+        >{\RaggedRight}m{1.5cm}
+        >{\RaggedRight}m{2.0cm}
+        >{\RaggedRight\arraybackslash}m{2.0cm}}
+        \toprule
+        &
+        &
+        \multicolumn{2}{c}{\textbf{Subscript}} &
+        \\
+        \cline{3-4}
+        \addlinespace[1ex]
+        \textbf{Quantity} &
+        \textbf{Notation} &
+        Left & Right &
+        \textbf{Example}
+        \\
+        \midrule
+        Scalar &
+        lowercase &
+        n/a &
+        n/a &
+        $a=4$
+        \\
+        \addlinespace[1ex]
+        Vector &
+        lowercase, bold &
+        \color{blue}frame &
+        {\color{orange}from} $\rightarrow$ {\color{red}to} &
+        $_{\color{blue}\mathcal{A}}\bm{r}_{{\color{orange}A}\color{red}B}$
+        \\
+        \addlinespace[1ex]
+        Homogeneous vector &
+        lowercase, bold, tilde &
+        \color{blue}frame &
+        {\color{orange}from} $\rightarrow$ {\color{red}to} &
+        $_{\color{blue}\mathcal{A}}\tilde{\bm{r}}_{{\color{orange}A}\color{red}B}$
+        \\
+        \addlinespace[1ex]
+        Matrix &
+        uppercase, bold &
+        n/a &
+        n/a &
+        $\bm{A}$
+        \\
+        \addlinespace[1ex]
+        Transformation matrix\parnote{This includes passive rotations, homogeneous transformations, quaternions} &
+        uppercase, bold &
+        n/a &
+        {\color{red}to} $\leftarrow$ {\color{orange}from} &
+        $\bm{R}_{\color{red}B{\color{orange}A}}$
+        \\
+        \bottomrule
+        \addlinespace[1ex]
+    \end{tabularx}
+    \parnotes
+    \parnoteclear
+\end{table}
+
+$f(\bm{x};\bm{p})$ a quantity $f$ with variables $\bm{x}$ and (optionally) parameterized by parameters $\bm{p}$.
