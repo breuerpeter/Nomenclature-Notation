@@ -1,7 +1,7 @@
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{
-        >{\RaggedRight}m{7.5cm}
-        >{\RaggedRight\arraybackslash}m{6.0cm}}
+        >{\RaggedRight}m{7.0cm}
+        >{\RaggedRight\arraybackslash}m{6.7cm}}
         \toprule
         \textbf{Property} &
         \textbf{Notation}
@@ -20,19 +20,19 @@
         \\
         \addlinespace[1ex]
         Expectation of a continuous RV &
-        $E[X]=:\mu$
+        $\mathbb{E}_{{\color{red}x}\sim {\color{brown}f(x)}}[{\color{blue}X}]=\int_{-\infty}^{\infty}{\color{blue}x}\ {\color{brown}f(x)}\ {\color{red}dx}=:\mathbb{E}[X]=:\mu$
         \\
         \addlinespace[1ex]
         Expectation of a discrete RV &
-        $E[X]=:\mu$
+        $\mathbb{E}_{{\color{red}x}\sim {\color{brown}p(x)}}[{\color{blue}X}]=\sum_{\color{red}i} {\color{blue}x_i}\ {\color{brown}p(x_i)}=:\mathbb{E}[X]=:\mu$
         \\
         \addlinespace[1ex]
         Expectation (continuous RV) of a function $g$ &
-        $E_{x\sim f(x)}[g(x)]=\int_{-\infty}^\infty g(x)f(x)dx$
+        $\mathbb{E}_{{\color{red}x}\sim {\color{brown}f(x)}}[{\color{blue}g(x)}]=\int_{-\infty}^\infty {\color{blue}g(x)}{\color{brown}f(x)}\ {\color{red}dx}$
         \\
         \addlinespace[1ex]
         Expectation (discrete RV) of a function $g$ &
-        $E_{x\sim p(x)}[g(x)]=\sum_i g(x_i)p(x_i)$
+        $\mathbb{E}_{{\color{red}x}\sim {\color{brown}p(x)}}[{\color{blue}g(x)}]=\sum_{\color{red}i} {\color{blue}g(x_i)}{\color{brown}p(x_i)}$
         \\
         \addlinespace[1ex]
         Variance &
