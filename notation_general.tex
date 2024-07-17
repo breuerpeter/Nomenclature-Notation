@@ -1,9 +1,10 @@
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{
-        >{\RaggedRight}m{4.0cm}
+        >{\RaggedRight}m{3.2cm}
         >{\RaggedRight}m{3.5cm}
-        >{\RaggedRight}m{1.5cm}
+        >{\RaggedRight}m{1.0cm}
         >{\RaggedRight}m{2.0cm}
+        >{\RaggedRight}m{3.0cm}
         >{\RaggedRight}m{2.0cm}}
         \toprule
         &
@@ -15,11 +16,13 @@
         \textbf{Quantity} &
         \textbf{Notation} &
         Left & Right &
+        \textbf{Superscript} &
         \textbf{Example}
         \\
         \midrule
         Scalar &
         lowercase &
+        n/a &
         n/a &
         n/a &
         $a=4$
@@ -29,13 +32,23 @@
         lowercase, bold &
         \color{blue}frame &
         {\color{orange}from} $\rightarrow$ {\color{red}to} &
+        n/a &
         $_{\color{blue}\mathcal{A}}\bm{r}_{{\color{orange}A}\color{red}B}$
+        \\
+        \addlinespace[1ex]
+        Unit axis vector &
+        lowercase, bold &
+        \color{blue}frame &
+        axis &
+        frame of axis &
+        $_{\color{blue}\mathcal{A}}\bm{e}_x^{\mathcal{B}}$
         \\
         \addlinespace[1ex]
         Homogeneous vector &
         lowercase, bold, tilde &
         \color{blue}frame &
         {\color{orange}from} $\rightarrow$ {\color{red}to} &
+        n/a &
         $_{\color{blue}\mathcal{A}}\tilde{\bm{r}}_{{\color{orange}A}\color{red}B}$
         \\
         \addlinespace[1ex]
@@ -43,14 +56,16 @@
         uppercase, bold &
         n/a &
         n/a &
+        n/a &
         $\bm{A}$
         \\
         \addlinespace[1ex]
-        Transformation matrix\parnote{This includes passive rotations, homogeneous transformations, quaternions} &
+        Transformations\parnote{This includes passive rotation matrices, homogeneous transformations, quaternions} &
         uppercase, bold &
         n/a &
         {\color{red}to} $\leftarrow$ {\color{orange}from} &
-        $\bm{R}_{\color{red}B{\color{orange}A}}$
+        n/a &
+        $\bm{R}_{\color{red}\mathcal{B}{\color{orange}\mathcal{A}}}$
         \\
         \bottomrule
         \addlinespace[1ex]
